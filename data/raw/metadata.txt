@@ -1,0 +1,32 @@
+Descripción de campos 
+---------------------
+NUMERO_RECLAMO:		Es el número con el que el reclamo está registrado en el SUR. Lo genera el sistema.
+FECHA_INGRESO_RECLAMO: 	Fecha en que el reclamo se dio de alta en el sistema.
+CODIGO_ESTADO:         	Código del estado en que se encuentra actualmente el reclamo.
+DESC_ESTADO:	 	Descripción del estado en que se encuentra actualmente el reclamo.
+FECHA_DESDE_EN_ESTADO:  Fecha en que el reclamo pasó al estado actual.
+CODIGO_AREA: 		Código del área de la IM que gestiona el reclamo.
+DESC_AREA:              Descripción del área de la IM que gestiona el reclamo.
+CODIGO_GRUPO: 		Código del grupo al que pertenece el reclamo.
+DESC_GRUPO:             Descripción del grupo al que pertenece el reclamo.
+CODIGO_TIPOPROBLEMA: 	Código del tipo de problema asociado al reclamo.
+DESC_TIPOPROBLEMA:      Descripción del tipo de problema asociado al reclamo.
+COORD_X: 		Coordenada X de la ubicación del reclamo en el sistema SIRGAS2000 / UTM 21S
+COORD_Y:       		Coordenada Y de la ubicación del reclamo en el sistema SIRGAS2000 / UTM 21S
+
+
+Ejemplos de área, grupo y tipo de problemas:
+*----------*----------------------------------*---------------------------------------------*
+| Area	   | Grupo                            | Tipo                                        |
+|----------|----------------------------------|---------------------------------------------|
+| Arbolado | Arbolado                         | Arbol deteriorado / riesgoso / extraccion   |
+|	   |	                              |	Arboles o ramas caidas / accidental         |
+|          |                                  |	Problemas aereos / poda / enfermedades      |
+|	   |	                              | Problemas raices / veredas / subterraneos   |
+|----------|----------------------------------|---------------------------------------------|
+|	   | Extraccion por entrada de garaje |	Extracción x Entrada Garaje                 |
+|	   |                                  |	Obra nueva extraccion por entrada de garage |
+|----------|----------------------------------|---------------------------------------------|
+|	   | Plantacion                       |	Plantación                                  |
+*----------*----------------------------------*---------------------------------------------*
+

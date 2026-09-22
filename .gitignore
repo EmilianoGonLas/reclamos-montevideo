@@ -1,0 +1,26 @@
+# --- R ---
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# --- shinyapps / rsconnect ---
+rsconnect/
+
+# --- datos crudos pesados ---
+# reclamos.csv (300 MB) no entra en GitHub. Se baja del catálogo de datos
+# abiertos (catalogodatos.gub.uy) y se convierte con
+# scripts/01_preparar_datos.R. Ver README.
+data/raw/*.csv
+
+# Los shapefiles de CCZ y municipios pesan poco (~2 MB cada uno) y no tienen
+# URL estable versionada (el catálogo redirige a /sit/tmp/, que rota), así
+# que SÍ se versionan para que el repo sea reproducible sin re-descargarlos.
+
+# Los derivados de data/app/ (~pocos MB) SÍ se versionan: son lo que
+# despliega la app y lo que la hace reproducible sin bajar 300 MB.
+!data/app/*
+
+# --- temporales ---
+*.bak
