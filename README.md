@@ -4,6 +4,8 @@ App Shiny para explorar los **reclamos ciudadanos ante la Intendencia de Montevi
 con datos oficiales del **Sistema Único de Reclamos (SUR)**. 1,7 millones de
 reclamos, de 2010 al último mes cerrado.
 
+![Reclamos por CCZ, cambiando de área](docs/img/mapa_ccz.gif)
+
 ## Qué hay en los datos
 
 Cada reclamo trae fecha de ingreso, estado actual (Ingresado / En Proceso /
